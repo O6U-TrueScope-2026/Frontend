@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-brand-primary: #3B82F6;
+  --color-brand-indigo: #6366F1;
+
+
+  /* Semantic Colors mapped to CSS Variables */
+  --color-surface-main: var(--bg-main);
+  --color-surface-soft: var(--bg-soft);
+  --color-border-subtle: var(--border-subtle);
+  --color-content-main: var(--text-bold);
+  --color-content-muted: var(--text-muted);
+  --color-content-error: #EF4444;
+
+  /* Status Colors */
+  --color-status-success: var(--status-success);
+  --color-status-error: var(--status-error);
+  --color-status-warning: var(--status-warning);
+
+  /* Custom Gradients */
+  --background-image-gradient-cyan-blue: linear-gradient(to right, #22D3EE, #3B82F6);
+  --background-image-gradient-pink-purple: linear-gradient(to right, #F472B6, #A855F7);
+  --background-image-gradient-pink: linear-gradient(to right, #F472B6, #A855F7);
+  --background-image-gradient-orange-red: linear-gradient(to right, #FB923C, #EF4444);
+  --background-image-brand-gradient: linear-gradient(135deg, #3B82F6 0%, #6366F1 100%);
+
+  /* Custom Shadow */
+  --shadow-soft-xl: var(--shadow-soft);
+
+  /* Fonts */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-arabic: 'Cairo', 'Tajawal', sans-serif;
+}
+
+@layer base {
+  :root {
+    /* Light Mode Palette */
+    --bg-main: #FFFFFF;
+    --bg-soft: #F8FAFC;
+    --border-subtle: #E2E8F0;
+    --text-bold: #0F172A;
+    --text-muted: #64748B;
+    --shadow-soft: 0 20px 25px -5px rgb(0 0 0 / 0.05), 0 8px 10px -6px rgb(0 0 0 / 0.05);
+    
+    /* Status Palette - Light */
+    --status-success: #10B981;
+    --status-error: #EF4444;
+    --status-warning: #F59E0B;
+  }
+
+  .dark {
+    /* Dark Mode Palette */
+    --bg-main: #020617;
+    --bg-soft: #0F172A;
+    --border-subtle: #1E293B;
+    --text-bold: #F8FAFC;
+    --text-muted: #94A3B8;
+    --shadow-soft: 0 20px 25px -5px rgb(0 0 0 / 0.3), 0 8px 10px -6px rgb(0 0 0 / 0.3);
+
+    /* Status Palette - Dark */
+    --status-success: #34D399;
+    --status-error: #F87171;
+    --status-warning: #FBBF24;
+  }
+
+  * {
+    @apply transition-colors duration-300;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--bg-main);
+    color: var(--text-bold);
+  }
+
+  html[lang="en"] {
+    font-family: var(--font-sans);
+  }
+
+  html[lang="ar"] {
+    font-family: var(--font-arabic);
+  }
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+/* Global Mobile Fixes */
+@layer base {
+  body {
+    @apply overflow-x-hidden;
+    width: 100%;
+  }
+
+  /* Prevent text selection overflow */
+  p, h1, h2, h3, h4, h5, h6, span {
+    @apply break-words;
+  }
+}
+
+@layer utilities {
+  .animate-spin-slow {
+    animation: spin 3s linear infinite;
+  }
+
+  .shadow-soft-xl {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.05), 0 8px 10px -6px rgb(0 0 0 / 0.05);
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "nav": {
+    "history": "History",
+    "theme": "Theme",
+    "light_mode": "Light",
+    "dark_mode": "Dark",
+    "language": "Language",
+    "logout": "Logout",
+    "login": "Login",
+    "signup": "Sign Up",
+    "welcome_back": "Welcome back, {{name}}",
+    "welcome": "Welcome",
+    "back_to_home": "Back to Home"
+  },
+  "hero": {
+    "welcome_back": "Welcome back, {{name}}",
+    "guest_headline": "Verify authenticity with TrueScope",
+    "description": "Use our AI-powered detection tools to verify the authenticity of videos, audio, text, and images. See beyond the fake with TrueScope.",
+    "stats": {
+      "verified": "Media Verified",
+      "accuracy": "Accuracy Rate",
+      "users": "Active Users"
+    }
+  },
+  "tools": {
+    "title": "Detection Tools",
+    "cta": "Start Detection",
+    "video": {
+      "title": "Video Detector",
+      "description": "Analyze videos for deepfakes, face-swaps, and artificial manipulation."
+    },
+    "audio": {
+      "title": "Audio Detector",
+      "description": "Detect AI-generated voices, cloned speech, and synthetic audio patterns."
+    },
+    "text": {
+      "title": "Text Detector",
+      "description": "Verify the authenticity of articles and social media posts."
+    },
+    "image": {
+      "title": "Image Detector",
+      "description": "Check images for AI generation, editing artifacts, and metadata anomalies."
+    },
+    "accounts": {
+      "title": "Account Detector",
+      "description": "Identify bot behavior and suspicious patterns across social platforms."
+    },
+    "account": {
+      "title": "Account Detector"
+    },
+    "multimodal": {
+      "title": "Multimodal Detector"
+    },
+    "deepsearch": {
+      "title": "Deep Search",
+      "description": "Advanced cross-platform scanning to find the origin of any content."
+    }
+  },
+  "features": {
+    "how_it_works": {
+      "title": "How It Works",
+      "step1_title": "Upload Your Media",
+      "step1_desc": "Select the type of content you want to verify",
+      "step2_title": "AI Analysis",
+      "step2_desc": "Our models analyze multiple signals and patterns",
+      "step3_title": "Get Results",
+      "step3_desc": "Receive detailed reports with explanations"
+    },
+    "why_truescope": {
+      "title": "Why TrueScope?",
+      "reason1_title": "Advanced AI Models",
+      "reason1_desc": "State-of-the-art detection algorithms",
+      "reason2_title": "Explainable Results",
+      "reason2_desc": "Understand why content is flagged",
+      "reason3_title": "Privacy First",
+      "reason3_desc": "Your data is secure and encrypted"
+    }
+  },
+  "auth": {
+    "login_tab": "Login",
+    "signup_tab": "Sign Up",
+    "welcome_back": "Welcome Back",
+    "create_account": "Create Account",
+    "name_label": "Full Name",
+    "name_placeholder": "Enter Full Name",
+    "email_label": "Email Address",
+    "email_placeholder": "you@example.com",
+    "account_type_label": "Account Type",
+    "account_type_user": "User",
+    "account_type_pro": "Pro",
+    "password_label": "Password",
+    "password_placeholder": "Enter your password",
+    "password_signup_placeholder": "Create a strong password",
+    "confirm_password_label": "Confirm Password",
+    "confirm_password_placeholder": "Re-enter your password",
+    "forgot_password": "Forgot Password?",
+    "login_button": "Login",
+    "signup_button": "Create Account",
+    "agree_text": "I agree to the",
+    "terms": "Terms of Service",
+    "and": "and",
+    "privacy": "Privacy Policy",
+    "or_continue": "Or continue with",
+    "or_signup_with": "Or sign up with",
+    "google": "Google",
+    "github": "GitHub",
+    "footer_text": "Powered by AI · Trusted by thousands",
+    "tagline": "See Beyond the Fake",
+    "signup_success": "Account created successfully!",
+    "signup_error": "Something went wrong. Please try again.",
+    "check_email_title": "Check your email",
+    "check_email_desc": "We have sent a verification link to your email address. Please click the link to verify your account.",
+    "go_to_login": "Go to Login",
+    "already_have_account": "Already have an account?",
+    "verifying_title": "Verifying your email...",
+    "verifying_desc": "Please wait while we confirm your account.",
+    "verify_success_title": "Verified Successfully!",
+    "verify_success_desc": "Your account is now active. You can proceed to login and start using TrueScope.",
+    "verify_error_title": "Verification Failed",
+    "verify_error": "Invalid or expired token.",
+    "resend_button": "Resend Verification Email",
+    "back_to_signup": "Back to Sign Up",
+    "verify_success": "Email verified successfully!",
+    "verify_error_toast": "Verification failed.",
+    "resend_success": "Verification email resent!",
+    "resend_error": "Failed to resend email.",
+    "password_required": "Password is required",
+    "forget_password_title": "Reset Password",
+    "forget_password_desc": "Enter your email address and we'll send you instructions to reset your password.",
+    "send_instructions": "Send Reset Instructions",
+    "remember_password": "Remember your password?",
+    "sign_in_here": "Sign in here",
+    "check_inbox_title": "Check your inbox",
+    "check_inbox_desc": "We've sent reset instructions to {{email}}.",
+    "back_to_login": "Back to Login",
+    "check_email_reset_title": "Check Your Email",
+    "check_email_reset_subtitle": "We've sent password reset instructions to:",
+    "check_email_instruction_1": "Please check your inbox and follow the link to reset your password.",
+    "check_email_instruction_2": "If you don't see the email, check your spam folder.",
+    "didnt_receive_email": "Didn't receive the email?",
+    "try_again": "Try again",
+    "check_email_success_title": "Email Verified",
+    "check_email_success_desc": "Your email has been successfully verified. You can now log in.",
+    "reset_password_title": "Set New Password",
+    "reset_password_subtitle": "Please enter your new password below.",
+    "reset_password_button": "Reset Password",
+    "reset_password_success": "Password reset successful! Redirecting to login...",
+    "reset_password_error": "Invalid or expired reset token.",
+    "request_new_link": "Request a new reset link"
+  },
+  "dashboard": {
+    "video": {
+      "title": "Video Analytics Dashboard",
+      "subtitle": "Deepfake Analysis & Manipulation Detection",
+      "unsupported": "Your browser does not support the video tag."
+    },
+    "actions": {
+      "report": "Export Report",
+      "share": "Share Analysis"
+    },
+    "status": {
+      "valid": "Valid",
+      "invalid": "Invalid",
+      "pass": "Pass",
+      "fail": "Fail",
+      "failed": "Failed"
+    },
+    "left": {
+      "overview": "Detection Overview",
+      "high_risk": "High Risk",
+      "risk_label": "Overall Face Manipulation Risk",
+      "metadata": "Metadata Consistency",
+      "integrity": "Data Stream Integrity",
+      "biometric": "Biometric Liveness",
+      "spatial_map": "Spatial Manipulation Map"
+    },
+    "center": {
+      "timeline": "Detection Timeline"
+    },
+    "right": {
+      "title": "Manipulation Detections",
+      "flagged": "Content Flagged",
+      "flagged_desc": "This video has been flagged for significant architectural manipulation and biometric inconsistencies."
+    },
+    "legend": {
+      "high": "High Risk",
+      "med": "Medium"
+    }
+  },
+  "detector": {
+    "upload": {
+      "title": "Video Deepfake Detection",
+      "subtitle": "Upload a video to detect AI-generated or manipulated content",
+      "box_title": "Click to upload or drag and drop",
+      "box_formats": "MP4, AVI, MOV, WEBM (max 50MB)",
+      "box_audio_formats": "WAV, MP3, FLAC (max 50MB)",
+      "box_image_formats": "JPG, JPEG, PNG (max 10MB)",
+      "button": "Analyze Video"
+    },
+    "audio": {
+      "title": "Audio Forgery Detection",
+      "subtitle": "Upload audio to detect AI-generated or cloned voices",
+      "analyze": "Analyze Audio"
+    },
+    "image": {
+      "title": "Image Manipulation Detection",
+      "subtitle": "Upload an image to detect AI generation or photo manipulation",
+      "analyze": "Analyze Image"
+    },
+    "text": {
+      "title": "Fake News Detection",
+      "subtitle": "Analyze text to identify fake or misleading information",
+      "analyze": "Analyze Text",
+      "placeholder": "Enter news article, social media post, or any text content...",
+      "input_label": "Paste or type the text you want to analyze",
+      "char_count": "characters",
+      "words": "words"
+    },
+    "account": {
+      "title": "Fake Accounts Detector",
+      "subtitle": "Analyze social media accounts to detect bots and fake profiles",
+      "form_title": "Account Information",
+      "username_label": "Username",
+      "url_label": "Profile URL (Optional)",
+      "bio_label": "Bio / Description (Optional)",
+      "bio_placeholder": "User's bio or description...",
+      "analyze": "Analyze Account",
+      "no_bio": "No description provided",
+      "ready": "Ready for behavioral analysis",
+      "hint": "Providing additional context helps improve detection accuracy",
+      "forensic_desc": "Behavioral forensic analysis completed for the target profile."
+    },
+    "preview": {
+      "title": "Confirm Media Preview",
+      "start": "Start Analysis"
+    },
+    "scanning": {
+      "title": "Scanning... Youssef",
+      "subtitle": "Analyzing forensic patterns and biometric consistency",
+      "image_title": "Scanning Pixel Architecture...",
+      "image_subtitle": "Analyzing metadata, noise patterns, and AI generation artifacts",
+      "text_title": "Analyzing Semantic Integrity...",
+      "text_subtitle": "Scanning for misinformation patterns and linguistic inconsistencies",
+      "account_title": "Scanning Network Graph...",
+      "account_subtitle": "Analyzing followers, engagement patterns, and behavioral anomalies",
+      "uploading": "Uploading Video...",
+      "upload_subtitle": "Transferring secure forensic data to our AI clusters",
+      "upload_progress": "Upload Progress",
+      "analysis_status": "AI Analysis in Progress",
+      "secure_tunnel": "Establishing secure end-to-end encrypted forensic tunnel",
+      "video_title": "Processing Video...",
+      "video_subtitle": "Analyzing temporal consistency, facial landmarks, and metadata artifacts"
+    },
+    "results": {
+      "authentic": "Authentic Content",
+      "confidence": "Confidence Score",
+      "passed": "Passed",
+      "filename": "Original File Name",
+      "size": "Size",
+      "timestamp": "Analysis Timestamp",
+      "completed": "Process Completed",
+      "metadata_check": "Metadata: Intact | Artifacts: Not Detected",
+      "text_preview": "Submitted Evidence",
+      "word_count": "Word Count",
+      "bot_detected": "Suspicious Activity Detected",
+      "risk_score": "Risk Score",
+      "account_preview": "Target Profile Analysis",
+      "target_id": "Target Identifier",
+      "low_risk": "Low Risk",
+      "high_risk": "High Risk",
+      "flagged": "Flagged"
+    }
+  },
+  "multimodal": {
+    "title": "Multimodal Detector",
+    "subtitle": "Verify the consistency between a text claim and its accompanying image.",
+    "input_label": "Text Claim",
+    "min_words": "Min 10 words",
+    "placeholder": "Paste text or claim here...",
+    "upload_label": "Accompanying Image",
+    "upload_box": "Click to upload image or drag and drop your image here",
+    "change_image": "Change Image",
+    "remove_image": "Remove",
+    "analyze": "Analyze",
+    "analyzing": "Analyzing content...",
+    "back_to_analysis": "Back to Analysis",
+    "results": {
+      "title": "Analysis Result",
+      "confidence_score": "Confidence Score",
+      "verdict": "Verdict",
+      "context_reference": "Submitted Content",
+      "submitted_text": "Original Text",
+      "submitted_image": "Uploaded Image",
+      "consistency_desc": "Analysis of the relationship between text and image evidence."
+    }
+  },
+  "verdict": {
+    "fake": "Fake",
+    "real": "Real",
+    "suspicious": "Suspicious"
+  },
+  "history": {
+    "subtitle": "View all your previous media verification results",
+    "total": "Total Analyses",
+    "fake": "Fake Detected",
+    "filter_all": "All",
+    "no_records": "No records found for this category",
+    "no_records_subtitle": "Try selecting another category or start a new analysis.",
+    "empty_title": "No Analysis Records Found",
+    "empty_subtitle": "Start your first forensic analysis to see results here.",
+    "delete_success": "Record deleted successfully",
+    "clear_success": "History cleared successfully",
+    "confirm_delete": "Are you sure you want to delete this record?",
+    "confirm_clear_all": "Are you sure you want to clear your entire history? This action cannot be undone.",
+    "clear_all": "Clear All",
+    "avg_confidence": "Average Confidence",
+    "toolType": {
+      "text": "Text Analysis",
+      "image": "Image Analysis",
+      "video": "Video Analysis",
+      "audio": "Audio Analysis",
+      "account": "Account Analysis",
+      "multimodal": "Multimodal Analysis",
+      "image_text": "Image & Text"
+    }
+  },
+  "errors": {
+    "password_requirement": "Password must contain at least one letter, one number, and one special character.",
+    "password_too_short": "Password must be at least 8 characters long.",
+    "email_exists": "This email is already registered.",
+    "confirm_password_mismatch": "Passwords do not match.",
+    "validation_failed": "Validation failed. Please check your inputs.",
+    "account_not_found": "Account not found, please check the username.",
+    "generic": "Something went wrong. Please try again.",
+    "name_required": "Name is required",
+    "invalid_email": "Invalid email format",
+    "login_success": "Login successful!",
+    "login_error": "Email or password is incorrect",
+    "unauthorized": "Session expired. Please login again.",
+    "account_not_found": "Account not found. Please check the username.",
+    "no_file_selected": "Please select a file first.",
+    "file_too_large": "Image size cannot exceed 10MB",
+    "invalid_video_format": "Invalid format. Please upload MP4, WebM, MOV, or AVI.",
+    "video_size_limit": "Video size cannot exceed 50MB",
+    "invalid_audio_format": "Only WAV, MP3 and FLAC audio files are allowed",
+    "audio_size_limit": "Audio file size must not exceed 50 MB",
+    "multimodal_text_criteria": "Text must be at least 10 words long",
+    "invalid_image_format": "Image format not supported. Please use JPG, JPEG or PNG.",
+    "text_length_requirement": "Text must be at least 20 words long to analyze."
+  },
+  "seo": {
+    "defaultDescription": "Analyze and detect deepfakes, AI-generated content, and facial manipulations with TrueScope's advanced forensics.",
+    "home": {
+      "title": "Home",
+      "description": "TrueScope provides state-of-the-art AI detection tools for videos, images, audio, and text verification."
+    },
+    "video": {
+      "title": "Video Forensics Analysis",
+      "description": "Analyze and detect deepfakes or facial manipulations in video files using advanced biometric scanning."
+    },
+    "audio": {
+      "title": "Audio Forgery Detection",
+      "description": "Identify AI-generated voices, cloned speech, and synthetic audio patterns with high precision."
+    },
+    "image": {
+      "title": "Image Manipulation Detection",
+      "description": "Detect AI-generated images, photo manipulation artifacts, and metadata inconsistencies."
+    },
+    "text": {
+      "title": "Fake News & Text Verification",
+      "description": "Verify the authenticity of documents, articles, and social media posts to identify AI-generated text."
+    },
+    "account": {
+      "title": "Social Bot Detection",
+      "description": "Analyze social media accounts to identify bots, fake profiles, and suspicious behavioral patterns."
+    },
+    "history": {
+      "title": "Analysis History",
+      "description": "Access your previous media verification results and detailed forensic reports."
+    },
+    "dashboard": {
+      "title": "Forensic Analysis Dashboard",
+      "description": "Deep dive into media authenticity with our advanced forensic analytics and manipulation timeline."
+    },
+    "login": {
+      "title": "Login",
+      "description": "Sign in to your TrueScope account to access advanced AI detection tools."
+    },
+    "signup": {
+      "title": "Create Account",
+      "description": "Join TrueScope and start verifying media authenticity with AI-powered forensics."
+    }
+  },
+  "common": {
+    "prev": "Previous",
+    "next": "Next",
+    "cancel": "Cancel"
+  }
+}
